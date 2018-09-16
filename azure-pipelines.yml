@@ -30,3 +30,4 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
     testFiltercriteria: 'TestCategory=Unit Test'
+    codeCoverageEnabled: true
