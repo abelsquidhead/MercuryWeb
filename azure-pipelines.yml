@@ -29,3 +29,6 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+    testFiltercriteria: 'TestCategory=Unit Test'
+    runInParallel: true
+    codeCoverageEnabled: true
